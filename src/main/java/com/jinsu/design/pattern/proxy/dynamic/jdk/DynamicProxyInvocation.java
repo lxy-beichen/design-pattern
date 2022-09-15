@@ -1,4 +1,4 @@
-package com.jinsu.design.pattern.proxy.dynamic;
+package com.jinsu.design.pattern.proxy.dynamic.jdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

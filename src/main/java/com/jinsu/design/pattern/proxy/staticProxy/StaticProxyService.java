@@ -1,6 +1,6 @@
 package com.jinsu.design.pattern.proxy.staticProxy;
 
-import com.jinsu.design.pattern.proxy.ProxyService;
+import com.jinsu.design.pattern.proxy.JdkProxyService;
 
 /**
  * 静态代理类
@@ -10,9 +10,9 @@ import com.jinsu.design.pattern.proxy.ProxyService;
  */
 public class StaticProxyService {
 
-    private ProxyService proxyService;
+    private JdkProxyService proxyService;
 
-    public StaticProxyService(ProxyService proxyService) {
+    public StaticProxyService(JdkProxyService proxyService) {
         this.proxyService = proxyService;
     }
 

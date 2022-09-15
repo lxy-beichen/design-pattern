@@ -1,6 +1,6 @@
 package com.jinsu.design.pattern.test.proxy;
 
-import com.jinsu.design.pattern.proxy.impl.ProxyServiceImpl;
+import com.jinsu.design.pattern.proxy.impl.JdkProxyServiceImpl;
 import com.jinsu.design.pattern.proxy.staticProxy.StaticProxyService;
 
 /**
@@ -12,7 +12,7 @@ import com.jinsu.design.pattern.proxy.staticProxy.StaticProxyService;
 public class StaticProxyTest {
 
     public static void main(String[] args) {
-        StaticProxyService staticProxyService = new StaticProxyService(new ProxyServiceImpl());
+        StaticProxyService staticProxyService = new StaticProxyService(new JdkProxyServiceImpl());
         staticProxyService.doSomeThing();
     }
 
