@@ -9,6 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
+ * 策略模式测试
+ *
  * @author lxy-beichen
  * @date 2022年09月15日 12:54:48
  */

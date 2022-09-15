@@ -7,6 +7,8 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 /**
+ * 责任链模式
+ *
  * @author lxy-beichen
  * @date 2022年09月15日 13:17:46
  */
@@ -34,7 +36,7 @@ public class ChainPattern {
     /**
      * 执行方法
      */
-    public void exec(){
+    public void exec() {
         abstractHandler.filter();
     }
 
